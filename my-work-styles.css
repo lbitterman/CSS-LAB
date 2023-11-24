@@ -1,3 +1,4 @@
+/* to create the gallery of images*/
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -54,15 +55,16 @@ a:link, a:visited {
     text-decoration: none;
     display: inline-block;
   }
-  
+  /* make the links beige when you hover. ooooh! interactive!*/
   a:hover, a:active {
     background-color: beige;
   }
-
+/* footer exists*/
 footer { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: oblique;
-    background-color: whitesmoke;
-  padding-top: 400px;
+    background-color: #cc5500;
+    color: whitesmoke;
+  padding-top: 100px;
   text-align: center;
-  font-size: 50px;
+  font-size: 20px;
 }
