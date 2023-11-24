@@ -1,4 +1,12 @@
 /* this is the css for the home page*/
+header { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  color: #cc5500;
+padding: 30px;
+text-align: left;
+font-size: 95px;
+}
+
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -25,13 +33,6 @@ h1 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   padding: 10px;
   text-align: center;
 
-}
-header { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: oblique;
-    color: #cc5500;
-  padding: 30px;
-  text-align: left;
-  font-size: 95px;
 }
 p { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: normal;
