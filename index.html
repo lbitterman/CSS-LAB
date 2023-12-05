@@ -1,84 +1,69 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leo Bitterman</title>
-    <link href="styles.css" rel="stylesheet">
-    <script defer src="main.js"></script>
-    <!-- I've removed the comment inside the head, as it can cause issues -->
-</head>
-<body>
-=======
 <html>
   <head lang="en-US" >
     <title> Leo Bitterman </title>
     <link href="styles.css" rel="stylesheet" />
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap" rel="stylesheet">
+    <script defer src="main.js"></script>
+    /* i chose to use defer instead of async because it 
+    makes more sense to me and I be confused rn */
   </head>
   <body>
->>>>>>> eb6b2d6e65dafe99041b824aec51ace190e4872e
     <header>
-        <img src="images/ID.png" alt="logo" width="50">
-        LEO BITTERMAN
+      <img src="images/ID.png" alt="logo" width="50">
+      LEO BITTERMAN
     </header>
     <button onclick="myFun()">Alert</button>
 
     <script>
-        function myFun() {
-            alert("Hello there!");
-        }
+       function myFun(){
+          alert("Hello there!");
+       }
     </script>
-
+    
     <h1> I can make a mean coffee and I can make a mean illustration. 
-        U want a logo? U want a custom painting? U want some art to bring your business or your walls to life?
-        U know who to contact.
-    </h1>
+      U want a logo? U want a custom painting? U want some art to bring your buisness or your walls to life?
+      U know who to contact.
+     </h1>
     <nav>
-        <ul class="main-nav">
-            <li><a href="my-work-section.html">Portfolio</a></li>
-            <li><a href="https://www.linkedin.com/in/leo-bitterman-383430290/">LinkedIn</a></li>
-            <li><a href="https://www.instagram.com/lilbitter.arts/?hl=en">My Doodle Page</a></li>
-        </ul>
+      <ul class="main-nav">
+        <li><a href="my-work-section.html">Portfolio</a></li>
+        <li><a href="https://www.linkedin.com/in/leo-bitterman-383430290/"> LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/lilbitter.arts/?hl=en"> My Doodle Page </a></li>
+        </ul> 
+      </ul>
     </nav>
     <hr>
     <div class="center">
-        <h1>My Favorite Plants Ranked</h1>
-        <table style="width:20%">
-            <tr>
-                <th>Rank</th>
-                <th>Plant</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Hoya Bella</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>Barrel Cactus</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Split Leaf Philodendron</td>
-            </tr>
-        </table>
-    </div>
+      <h1> My Favorite Plants Ranked</h1>
+      <table style="width:20%">
+      <tr>
+        <th>Rank</th>
+        <th>Plant</th> 
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Hoya Bella</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Barrel Cactus</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Split Leaf Philodendron</td>
+      </tr>
+      </table>
+  </div>
     <hr>
-<<<<<<< HEAD
-    <footer>&copy; Leo Bitterman
-        <p id="date"></p>
-        <script>
-            const d = new Date();
-            document.getElementById("date").innerHTML = d.toDateString();
+    <footer> &copy Leo Bitterman 
+      /*this is supposed to be the javascript for the date
+      but its not working so came back to me Leo */
+      <p id="date"></p>
+      <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d.toDateString();
         </script>
     </footer>
-</body>
-=======
-    <footer> &copy Leo Bitterman, 2023 :) </footer>
   </body>
 
->>>>>>> eb6b2d6e65dafe99041b824aec51ace190e4872e
 </html>
