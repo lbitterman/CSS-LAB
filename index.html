@@ -3,12 +3,23 @@
   <head lang="en-US" >
     <title> Leo Bitterman </title>
     <link href="styles.css" rel="stylesheet" />
+    <script defer src="main.js"></script>
+    /* i chose to use defer instead of async because it 
+    makes more sense to me and I be confused rn */
   </head>
   <body>
     <header>
       <img src="images/ID.png" alt="logo" width="50">
       LEO BITTERMAN
     </header>
+    <button onclick="myFun()">Alert</button>
+
+    <script>
+       function myFun(){
+          alert("Hello there!");
+       }
+    </script>
+    
     <h1> I can make a mean coffee and I can make a mean illustration. 
       U want a logo? U want a custom painting? U want some art to bring your buisness or your walls to life?
       U know who to contact.
@@ -44,7 +55,15 @@
       </table>
   </div>
     <hr>
-    <footer> &copy Leo Bitterman, 2023 :) </footer>
+    <footer> &copy Leo Bitterman 
+      /*this is supposed to be the javascript for the date
+      but its not working so came back to me Leo */
+      <p id="date"></p>
+      <script>
+        const d = new Date();
+        document.getElementById("date").innerHTML = d.toDateString();
+        </script>
+    </footer>
   </body>
 
 </html>
