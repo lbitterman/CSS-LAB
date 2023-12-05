@@ -1,9 +1,11 @@
+/* to create the gallery of images*/
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
 }
+<<<<<<< HEAD
 
 div.gallery:hover {
   border: 1px solid #777;
@@ -35,10 +37,17 @@ header {
   font-style: oblique;
   background-color: whitesmoke;
   color: #cc5500;
+=======
+header { font-family: font-family: 'Sen', sans-serif;
+    font-style: oblique;
+    background-color: whitesmoke;
+    color: #cc5500;
+>>>>>>> eb6b2d6e65dafe99041b824aec51ace190e4872e
   padding: 30px;
   text-align: center;
   font-size: 50px;
 }
+<<<<<<< HEAD
 
 p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -70,4 +79,35 @@ footer {
   padding-top: 20px; /* Adjusted value */
   text-align: center;
   font-size: 50px;
+=======
+p { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: bold;
+color: whitesmoke;
+text-align: left;
+padding-right: 600px;
+font-size: 18
+px;
+}
+a:link, a:visited {
+    background-color: whitesmoke;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  /* make the links beige when you hover. ooooh! interactive!*/
+  a:hover, a:active {
+    background-color: beige;
+  }
+/* footer exists*/
+footer { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    background-color: #cc5500;
+    color: whitesmoke;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 20px;
+>>>>>>> eb6b2d6e65dafe99041b824aec51ace190e4872e
 }
